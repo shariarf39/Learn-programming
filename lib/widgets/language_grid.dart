@@ -22,7 +22,7 @@ class LanguageGrid extends StatelessWidget {
       },
       heroTag: languageData.imagePath,
       imagePath: languageData.imagePath,
-      languageName: languageData.name,
+      languageNames: languageData.name,
     );
   }
 }

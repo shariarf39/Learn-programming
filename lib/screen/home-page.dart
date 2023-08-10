@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
             activeColor: Colors.black,
             inactiveColor: Colors.black54,
           ),
-          BottomNavyBarItem(
+       /*   BottomNavyBarItem(
             title: Text(
               'Books',
               style: GoogleFonts.poppins(
@@ -104,10 +104,10 @@ class _HomePageState extends State<HomePage> {
             ),
             activeColor: Colors.black,
             inactiveColor: Colors.black54,
-          ),
+          ),*/
           BottomNavyBarItem(
             title: Text(
-              'Covid\'19',
+              'About',
               style: GoogleFonts.poppins(
                 textStyle: TextStyle(
                   color: Colors.black,
@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> {
             ),
             textAlign: TextAlign.center,
             icon: Icon(
-              currentTab == 3 ? Mdi.virus : Mdi.virusOutline,
+              currentTab == 3 ? Mdi.appsBox : Mdi.appsBox,
               size: 30,
             ),
             activeColor: Colors.black,

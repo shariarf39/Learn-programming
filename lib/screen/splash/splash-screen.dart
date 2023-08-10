@@ -32,8 +32,8 @@ class _SplashScreenState extends State<SplashScreen> {
                   children: [
                     Image.asset(
                       'images/fabred.png',
-                      height: 100,
-                      width: 100,
+                      height: 200,
+                      width: 200,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 20),

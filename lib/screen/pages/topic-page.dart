@@ -66,7 +66,7 @@ class _TopicPageState extends State<TopicPage> {
         backgroundColor: Color(0xfff5e6d3),
         elevation: 0,
         title: Text(
-          'Coder\'s Handbook',
+          'Fab Red',
           style: GoogleFonts.poppins(
             textStyle: TextStyle(
               color: Color(0xff5c4450),
@@ -118,7 +118,7 @@ class _TopicPageState extends State<TopicPage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             AutoSizeText(
-                              'Learn once',
+                              'Easy Way to',
                               minFontSize: 24,
                               maxLines: 1,
                               style: GoogleFonts.ubuntu(
@@ -130,7 +130,7 @@ class _TopicPageState extends State<TopicPage> {
                               ),
                             ),
                             AutoSizeText(
-                              'Program anywhere!',
+                              'Learn Programing',
                               minFontSize: 24,
                               maxLines: 2,
                               style: GoogleFonts.ubuntu(
@@ -149,7 +149,7 @@ class _TopicPageState extends State<TopicPage> {
                         width: MediaQuery.of(context).size.width * .45,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('images/dev.png'),
+                            image: AssetImage('images/binary.png'),
                             fit: BoxFit.cover,
                           ),
                         ),

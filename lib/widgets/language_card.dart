@@ -6,13 +6,13 @@ import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
 class TopicsCard extends StatelessWidget {
-  final String languageName;
+  final String languageNames;
   final String imagePath;
   final Function onTap;
   final String heroTag;
   TopicsCard({
     this.imagePath,
-    this.languageName,
+    this.languageNames,
     this.onTap,
     this.heroTag,
   });
@@ -30,7 +30,7 @@ class TopicsCard extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color(0XffCDDEEC),
+                color: Colors.amber,
               ),
               child: Padding(
                 padding: const EdgeInsets.only(left: 15, bottom: 15),
@@ -39,7 +39,7 @@ class TopicsCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(
-                      languageName,
+                      languageNames,
                       style: GoogleFonts.cagliostro(
                         textStyle: TextStyle(
                           fontSize: 25,
@@ -54,7 +54,7 @@ class TopicsCard extends StatelessWidget {
                     Container(
                       width: width,
                       child: AutoSizeText(
-                        '$languageName programming language.',
+                        '$languageNames programming language.',
                         minFontSize: 15,
                         maxLines: 3,
                         style: GoogleFonts.cagliostro(
