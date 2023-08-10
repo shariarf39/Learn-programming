@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Column(
                   children: [
                     Image.asset(
-                      'images/programming.png',
+                      'images/fabred.png',
                       height: 100,
                       width: 100,
                       fit: BoxFit.cover,
@@ -62,7 +62,7 @@ class _SplashScreenState extends State<SplashScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              '0xe5e2e7 ',
+                              'Developed by Team Fab Red',
                               style: GoogleFonts.ubuntu(
                                 textStyle: TextStyle(
                                   color: Color(0xff8c8798),
